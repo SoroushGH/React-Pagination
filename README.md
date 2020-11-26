@@ -27,4 +27,4 @@ This app uses Bootstrap 4.5.3 CDN. You do not need to install it.
 
 # API
 
-* https://api.github.com/search/repositories?q=language:javascript&sort=stars&order=desc&per_page=100# React-Pagination
+* https://api.github.com/search/repositories?q=language:javascript&sort=stars&order=desc&per_page=100#
