@@ -8,7 +8,7 @@ const App = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postPerPage] = useState(20); //change the number to see more or less pose per page
+  const [postPerPage] = useState(20); //change the number to see more or less post per page
 
 
   useEffect(() => {
