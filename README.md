@@ -17,6 +17,7 @@ src
 
 
 * from a terminal 
+* cd React-Pagination
 * npm install
 * npm install axios
 * npm start (run the app in the default browser)
