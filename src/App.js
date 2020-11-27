@@ -8,7 +8,7 @@ const App = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postPerPage] = useState(20); //change the number to see more or less post per page
+  const [postPerPage] = useState(20); //change the value to see more or less posts per page
 
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const App = () => {
           setPosts(res.data.items);
           setLoading(false);
         })
-        .catch(error => { //error handling to know more about what happend
+        .catch(error => { //error handling to know more about what type of error has happened
           if (error.response) {
             console.log(`Problem With Response \n ${error.response.status}`)
           } else if (error.request) {
@@ -49,7 +49,7 @@ const App = () => {
     <div className="container">
       <h1 className="text-center p-5">Most Popular JavaScript Frameworks!</h1>
 
-      {/* active it, if you would like to use paginatio on the top as well */}
+      {/* active it, if you would like to use pagination on the top as well */}
       {/* <Pagination
         postPerPage={postPerPage}
         totalPosts={posts.length}
