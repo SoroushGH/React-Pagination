@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Frameworks = ({ posts, loading }) => { //get posts and loading propes from App.js
+const Frameworks = ({ posts, loading }) => {
 
     if (loading) { //if api is loading, show below message and let the user know 
         return <h2>Loading API ....</h2>
