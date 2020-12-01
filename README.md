@@ -1,4 +1,4 @@
-# How to make table of information that shows API data with React.js, Axios, and Bootstrap.
+# How to make a table of information that shows API data with React.js, Axios, and Bootstrap.
 
 
 ######   STRUCTURE   ######
@@ -26,6 +26,6 @@ src
 Note:
 This app uses Bootstrap 4.5.3 CDN. You do not need to install it.
 
-# API
+# GITUB API
 
 * https://api.github.com/search/repositories?q=language:javascript&sort=stars&order=desc&per_page=100#
